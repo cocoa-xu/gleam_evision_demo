@@ -1,0 +1,11 @@
+*.beam
+*.ez
+/build
+erl_crash.dump
+.DS_Store
+/priv
+*.tar.gz
+/gleam_evision-nif_*
+/src/*.erl
+/src/*.hrl
+/src/**/*.gleam
