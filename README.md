@@ -10,7 +10,9 @@ First, clone this repo
 $ git clone https://github.com/cocoa-xu/gleam_evision_demo.git
 ```
 
-Then, we need to download the precompiled evision library
+Then, we need to download the precompiled evision library from
+
+https://github.com/cocoa-xu/evision/releases/tag/v0.2.2-rc0
 
 ```bash
 $ cd gleam_evision_demo
