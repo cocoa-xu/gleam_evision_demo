@@ -52,6 +52,7 @@ GIT_TAGGED_VERSION="v${EVISION_VERSION}"
 
 curl -fSL "https://github.com/cocoa-xu/evision/releases/download/${GIT_TAGGED_VERSION}/${PRECOMPILED_NAME}.tar.gz" -o "${PRECOMPILED_NAME}.tar.gz"
 tar -xf "${PRECOMPILED_NAME}.tar.gz"
+rm -rf priv
 mv "${PRECOMPILED_NAME}/priv" priv
 cp -a ${PRECOMPILED_NAME}/gleam_generated/* src/
 ```
