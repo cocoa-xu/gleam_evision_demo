@@ -45,8 +45,8 @@ TARGET=aarch64-apple-darwin
 # if you don't need any extra modules, please set it to an empty string
 EXTRA_MODULES="-contrib-"
 
-# only 0.2.2-rc0 is available now
-EVISION_VERSION=0.2.2-rc0
+# 0.2.2-rc1 is available now
+EVISION_VERSION=0.2.2-rc1
 PRECOMPILED_NAME="gleam_evision-nif_2.16-${TARGET}${EXTRA_MODULES}${EVISION_VERSION}"
 GIT_TAGGED_VERSION="v${EVISION_VERSION}"
 
