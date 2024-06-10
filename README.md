@@ -1,5 +1,7 @@
 # gleam_evision_demo
 
+A very early stage demo of gleam_evision.
+
 ### Set up
 
 First, clone this repo
@@ -51,9 +53,6 @@ tar -xf "${PRECOMPILED_NAME}.tar.gz"
 mv "${PRECOMPILED_NAME}/priv" priv
 cp -a ${PRECOMPILED_NAME}/gleam_generated/* src/
 ```
-
-https://github.com/cocoa-xu/evision/releases/download/untagged-f328d7732e9f02edd13e/evision-nif_2.16-aarch64-apple-darwin-contrib-0.2.2-rc0.tar.gz
-https://github.com/cocoa-xu/evision/releases/download/untagged-f328d7732e9f02edd13e/evision-nif_2.16-aarch64-apple-darwin-contrib-0.2.2-rc0.tar.gz
 
 ### Have Fun
 
